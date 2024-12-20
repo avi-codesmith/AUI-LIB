@@ -14,6 +14,8 @@
 ![Screenshot from 2024-12-20 09-27-40](https://github.com/user-attachments/assets/6ab45341-d2d8-4a04-ab86-75e3e7828948)
 ## Group button
 ![Screenshot from 2024-12-20 09-29-28](https://github.com/user-attachments/assets/6fefa2a4-95c8-4831-8bf6-b37847869c00)
+## Hover Animation
+![Screenshot from 2024-12-20 10-44-13](https://github.com/user-attachments/assets/d03c7e98-867b-4842-b4b1-a3e5b66f376c)
 ## Carousel
 ![Screenshot from 2024-12-15 10-36-06](https://github.com/user-attachments/assets/a1c827c6-667b-4bb4-83bc-a894c62fc00c)
 ## Pagination
