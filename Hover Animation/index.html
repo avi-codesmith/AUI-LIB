@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hover Animation</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      .wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        height: 100vh;
+      }
+
+      .text-wrapper {
+        display: none;
+      }
+
+      .hover-wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 24px;
+        background-color: royalblue;
+        padding: 18px;
+        border-radius: 50px;
+        font-size: 20px;
+        color: #fff;
+        transition: all 2s ease;
+        width: fit-content;
+        border: 1px solid #fff;
+      }
+
+      .hover-wrapper:hover .text-wrapper {
+        display: block;
+      }
+
+      .icon-wrapper {
+        background-color: royalblue;
+        border-radius: 50%;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="hover-wrapper">
+        <div class="icon-wrapper">🚀</div>
+        <div class="text-wrapper">Learnig Java Script...</div>
+      </div>
+    </div>
+  </body>
+</html>
