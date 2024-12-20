@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bordered Tabber</title>
+    <style>
+      body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .tabber {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #fafafa;
+        box-shadow: 0 1px 1px 0 #ddd;
+        height: auto;
+        width: fit-content;
+      }
+
+      .option {
+        font-size: 24px;
+        font-weight: 400;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #888;
+        padding: 24px;
+        cursor: pointer;
+        transition: all 0.3s ease;
+      }
+
+      /* .option:hover {
+        color: royalblue;
+        box-shadow: 0 2px 0 0 royalblue;
+      } */
+
+      .option:active .option:focus {
+        color: royalblue;
+        box-shadow: 0 2px 0 0 royalblue;
+      }
+
+      .active-option {
+        color: royalblue;
+        box-shadow: 0 2px 0 0 royalblue;
+        cursor: default;
+        outline: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="tabber">
+      <div class="option" tabindex="0">Home</div>
+      <div class="option" tabindex="0">Movies</div>
+      <div class="option" tabindex="0">Description</div>
+      <div class="option" tabindex="0">You</div>
+    </div>
+
+    <script>
+      const options = document.querySelectorAll(".option");
+
+      options.forEach((option) => {
+        option.addEventListener("click", () => {
+          // Remove active class from all options
+          options.forEach((opt) => opt.classList.remove("active-option"));
+
+          // Add active class to the clicked option
+          option.classList.add("active-option");
+        });
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Search Bar</title>
+    <style>
+      .search-wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .search-icon-btn {
+        padding: 0.55rem;
+        background-color: royalblue;
+        border: none;
+        border-radius: 0.6rem 0 0 0.6rem;
+        border: 2px solid royalblue;
+        text-overflow: ellipsis;
+      }
+
+      .search-icon {
+        height: 2.4rem;
+        width: 2.4rem;
+        fill: none;
+        stroke: #fff;
+      }
+
+      img {
+        cursor: pointer;
+      }
+
+      .search-bar {
+        padding: 0.8rem;
+        outline: none;
+        border: none;
+        width: 28vw;
+        border-radius: 0 0.6rem 0.6rem 0;
+        text-overflow: ellipsis;
+        background-color: #e7f5ff;
+        font-size: 1.8rem;
+        color: #333;
+        border: 2px solid royalblue;
+      }
+
+      input[type="search"]::-webkit-search-cancel-button {
+        display: none;
+      }
+
+      ::placeholder {
+        font-size: 24px;
+        color: #666;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="search-wrapper">
+      <button class="search-icon-btn">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke-width="1.5"
+          stroke="#fff"
+          fill="#fff"
+          class="search-icon"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z"
+          />
+        </svg>
+      </button>
+      <div class="input-search-bar-wrapper">
+        <input
+          class="search-bar"
+          type="search"
+          placeholder="Search for anything or you want"
+        />
+      </div>
+    </div>
+  </body>
+</html>

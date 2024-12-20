@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile card</title>
+
+    <style>
+      body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .profile-card-wrapper {
+        height: auto;
+        width: 300px;
+        box-shadow: 0 2px 12px #ddd;
+        border-radius: 24px;
+      }
+
+      .profile-upper {
+        background-color: royalblue;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 24px 24px 0 0;
+      }
+
+      .profile-lower {
+        background-color: #f1f1f1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 4px;
+        border-radius: 0 0 24px 24px;
+      }
+
+      .profile-img-wrapper {
+        height: 132px;
+        width: 132px;
+        position: relative;
+      }
+
+      .profile-img {
+        height: 100%;
+        width: 100%;
+        border-radius: 50%;
+        position: absolute;
+        top: 24%;
+        border: 3px solid royalblue;
+      }
+
+      .heading {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 52px;
+        font-size: 24px;
+        font-weight: 500;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      .sub-heading {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: 400;
+        font-size: 18px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #777;
+        padding: 6px;
+      }
+
+      .socials {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 12px;
+        padding: 12px;
+      }
+
+      .social {
+        height: 24px;
+        width: 24px;
+      }
+
+      .button-wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 12px;
+      }
+
+      .btn {
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: royalblue;
+        color: #fff;
+        font-weight: 500;
+        padding: 10px 20px 10px 20px;
+        font-size: 16px;
+        border: none;
+        border-radius: 25px;
+        cursor: pointer;
+        transition: background-color 0.29s ease;
+      }
+
+      .btn:hover {
+        background-color: #fff;
+        color: royalblue;
+        box-shadow: inset 0 0 0 1px royalblue;
+      }
+
+      .btn:active {
+        background-color: rgb(210, 218, 240);
+      }
+
+      img {
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="profile-card-wrapper">
+      <div class="profile-upper">
+        <div class="profile-img-wrapper">
+          <img class="profile-img" src="steve.jpg" alt="loading" />
+        </div>
+      </div>
+      <div class="profile-lower">
+        <div class="heading">Full Stack Developer</div>
+        <div class="sub-heading">Tech Job-seeker</div>
+        <div class="socials">
+          <img src="linkedin.png" alt="loading" class="social" />
+          <img src="github.png" alt="loading" class="social" />
+          <img src="instagram.png" alt="loading" class="social" />
+        </div>
+        <div class="button-wrapper">
+          <button class="btn">Message</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Groups of Buttons</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        margin-top: 24px;
+      }
+
+      .btn-wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .btn {
+        font-size: 20px;
+        padding: 16px 22px;
+        background-color: royalblue;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+        transition: all 0.3s ease;
+      }
+
+      .border-right {
+        border-right: 1px solid rgb(21, 71, 223);
+        border-radius: 6px 0 0 6px;
+      }
+
+      .border-left {
+        border-left: 1px solid rgb(21, 71, 223);
+        border-radius: 0 6px 6px 0;
+      }
+
+      .btn:hover {
+        background-color: rgb(47, 93, 230);
+      }
+
+      .btn:active {
+        background-color: rgb(85, 119, 219);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="btn-wrapper">
+      <button class="btn border-right">ONE</button>
+      <button class="btn">TWO</button>
+      <button class="btn border-left">THREE</button>
+    </div>
+  </body>
+</html>
