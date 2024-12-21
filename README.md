@@ -36,7 +36,7 @@
 ## Pagination
 ![Screenshot from 2024-12-15 10-36-25](https://github.com/user-attachments/assets/747bafbc-88d9-4222-baf1-571b14df5af5)
 ## Steps
-![Screenshot from 2024-12-20 09-24-53](https://github.com/user-attachments/assets/a708ba7d-83b8-42da-8257-74f2a14b6bdc)
+![Screenshot from 2024-12-21 15-19-56](https://github.com/user-attachments/assets/fe997e97-2fd7-4e5c-8d5d-56d34fd703a3)
 ## Accordion
 ![Screenshot from 2024-12-15 11-20-10](https://github.com/user-attachments/assets/17fca1d3-ca7f-481d-9bde-18d9f5b36a38)
 
