@@ -4,6 +4,8 @@
 ![Screenshot from 2024-12-20 09-30-24](https://github.com/user-attachments/assets/dfe53ad2-75c8-4659-aac9-a77561f0ce6f)
 ## Alerts 
 ![Screenshot from 2024-12-20 09-35-06](https://github.com/user-attachments/assets/f861319a-f6cd-4189-b899-60720e1b9dce)
+## Avatar
+![Screenshot from 2024-12-20 14-40-55](https://github.com/user-attachments/assets/41449ff4-568a-4491-b1ae-b4da95742bfe)
 ## Button
 ![Screenshot from 2024-12-15 10-35-32](https://github.com/user-attachments/assets/efd9acd8-2f37-4524-acc8-4324f6023bda)
 ## Bordered Tabber
