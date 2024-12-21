@@ -3,10 +3,18 @@
 ## Profile Card
 ![Screenshot from 2024-12-20 09-30-24](https://github.com/user-attachments/assets/dfe53ad2-75c8-4659-aac9-a77561f0ce6f)
 ## Responsive layout (without use of media query)
+### In Big Laptops
 ![Screenshot from 2024-12-20 19-08-04](https://github.com/user-attachments/assets/c7cb064a-2b68-407a-9dfa-08155b81163d)
+<br>
+### In Smaller Desktop
 ![Screenshot from 2024-12-20 19-08-26](https://github.com/user-attachments/assets/ebfd013a-d84a-47f3-b6f8-3409e1d75dcc)
+<br>
+### In Tabs
 ![Screenshot from 2024-12-20 19-08-41](https://github.com/user-attachments/assets/1c92d059-d9dc-4642-b581-4258d412fde0)
+<br>
+### In Small/Big Mobiles
 ![Screenshot from 2024-12-20 19-08-59](https://github.com/user-attachments/assets/739048ed-3e6e-430b-bc3f-7024f3490736)
+<br>
 ## Alerts 
 ![Screenshot from 2024-12-20 09-35-06](https://github.com/user-attachments/assets/f861319a-f6cd-4189-b899-60720e1b9dce)
 ## Avatar
