@@ -39,5 +39,6 @@
 ![Screenshot from 2024-12-21 15-19-56](https://github.com/user-attachments/assets/fe997e97-2fd7-4e5c-8d5d-56d34fd703a3)
 ## Accordion
 ![Screenshot from 2024-12-15 11-20-10](https://github.com/user-attachments/assets/17fca1d3-ca7f-481d-9bde-18d9f5b36a38)
-
+## Hover cards Footer
+https://github.com/user-attachments/assets/24bc1788-98fc-4a2f-9f62-6053960ea57c
 
