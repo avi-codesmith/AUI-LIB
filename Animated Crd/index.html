@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Animated Card</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        flex-direction: column;
+        height: 100vh;
+      }
+
+      .wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+      }
+
+      .item {
+        border: 2px solid royalblue;
+        width: 400px;
+        height: 150px;
+        border-radius: 12px;
+      }
+
+      .heading {
+        font-size: 24px;
+        padding: 12px;
+        color: #444;
+      }
+
+      .para {
+        font-size: 12px;
+        padding: 12px;
+        color: #555;
+        font-weight: 500;
+      }
+
+      .royal {
+        background-color: #e7f5ff;
+      }
+
+      .light {
+        background-color: #a5d8ff;
+      }
+
+      .next-section {
+        background-color: #e7f5ff;
+        height: 50vh;
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 99;
+        border-top: 2px solid royalblue;
+        color: royalblue;
+      }
+
+      .rotate {
+        transform: rotate(20deg);
+        position: absolute;
+        top: 32%;
+        left: -20%;
+      }
+
+      .down {
+        transform: translateY(40%) rotate(-10deg);
+        z-index: 2;
+      }
+
+      .third {
+        transform: translateY(50%) rotate(10deg);
+      }
+
+      .fourth {
+        transform: translateY(30%) rotate(-5deg);
+      }
+
+      .item {
+        transition: all 0.3s ease;
+        cursor: pointer;
+      }
+
+      .rotate:hover {
+        /* position: absolute;
+        top: 1%; */
+        transform: rotate(0deg);
+        transform: translateY(-50%);
+        z-index: 9;
+      }
+
+      .down:hover {
+        /* position: absolute;
+        top: 1%; */
+        transform: rotate(0deg);
+        transform: translateY(-30%);
+        z-index: 9;
+      }
+
+      .third:hover {
+        /* position: absolute;
+        top: 1%; */
+        transform: rotate(0deg);
+        transform: translateY(-30%);
+        z-index: 9;
+      }
+
+      .fourth:hover {
+        /* position: absolute;
+        top: 1%; */
+        transform: rotate(0deg);
+        transform: translateY(-30%);
+        z-index: 9;
+      }
+
+      .para {
+        list-style-type: none;
+      }
+
+      .para li {
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        flex-direction: column;
+        gap: 1.2rem;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="item royal rotate">
+        <h2 class="heading">Inspirations</h2>
+        <hr color="royalblue" />
+        <ul class="para">
+          <li>Lorem ipsum dolor sit amet.</li>
+          <li>Lorem ipsum dolor sit.</li>
+          <li>Lorem ipsum dolor sit amet consectetur.</li>
+          <li>Lorem ipsum dolor sit amet consectetur adipisicing.</li>
+        </ul>
+      </div>
+      <div class="item light down">
+        <h2 class="heading">Products</h2>
+        <hr color="royalblue" />
+        <ul class="para">
+          <li>Lorem ipsum dolor sit amet.</li>
+          <li>Lorem ipsum dolor sit.</li>
+          <li>Lorem ipsum dolor sit amet consectetur.</li>
+          <li>Lorem ipsum dolor sit amet consectetur adipisicing.</li>
+        </ul>
+      </div>
+      <div class="item royal third">
+        <h2 class="heading">Contact us</h2>
+        <hr color="royalblue" />
+        <ul class="para">
+          <li>Lorem ipsum dolor sit amet.</li>
+          <li>Lorem ipsum dolor sit.</li>
+          <li>Lorem ipsum dolor sit amet consectetur.</li>
+          <li>Lorem ipsum dolor sit amet consectetur adipisicing.</li>
+        </ul>
+      </div>
+      <div class="item light fourth">
+        <h2 class="heading">About us</h2>
+        <hr color="royalblue" />
+        <ul class="para">
+          <li>Lorem ipsum dolor sit amet.</li>
+          <li>Lorem ipsum dolor sit.</li>
+          <li>Lorem ipsum dolor sit amet consectetur.</li>
+          <li>Lorem ipsum dolor sit amet consectetur adipisicing.</li>
+        </ul>
+      </div>
+    </div>
+    <div class="next-section">
+      <h1 class="n-s-h">FOOTER</h1>
+    </div>
+  </body>
+</html>
