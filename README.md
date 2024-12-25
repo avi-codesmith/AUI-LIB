@@ -24,10 +24,10 @@ https://github.com/user-attachments/assets/dd9223e9-ba1d-4ce8-ba01-7560848ffe18
 https://github.com/user-attachments/assets/ec3b000f-57f2-45ac-88d6-5338f46194fe
 ## Color Chip
 ![Screenshot from 2024-12-24 19-42-14](https://github.com/user-attachments/assets/629c9b03-06f5-4df9-aec2-7a219d1b6109)
-## Carousel
-![Screenshot from 2024-12-15 10-36-06](https://github.com/user-attachments/assets/a1c827c6-667b-4bb4-83bc-a894c62fc00c)
 ## Pagination
 ![Screenshot from 2024-12-15 10-36-25](https://github.com/user-attachments/assets/747bafbc-88d9-4222-baf1-571b14df5af5)
+## Carousel
+![Screenshot from 2024-12-15 10-36-06](https://github.com/user-attachments/assets/a1c827c6-667b-4bb4-83bc-a894c62fc00c)
 ## Steps
 ![Screenshot from 2024-12-21 15-19-56](https://github.com/user-attachments/assets/fe997e97-2fd7-4e5c-8d5d-56d34fd703a3)
 ## Accordion
