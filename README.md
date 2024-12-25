@@ -14,6 +14,8 @@ https://github.com/user-attachments/assets/7795feab-80f6-4399-84bd-d5a861e422ef
 ![Screenshot from 2024-12-15 10-35-32](https://github.com/user-attachments/assets/efd9acd8-2f37-4524-acc8-4324f6023bda)
 ## Bordered Tabber
 https://github.com/user-attachments/assets/dd9223e9-ba1d-4ce8-ba01-7560848ffe18
+## Loader
+https://github.com/user-attachments/assets/9e79ebc1-73a9-45fe-ac3b-ad57a1e3adf2
 ## Table 
 ![Screenshot from 2024-12-15 10-36-50](https://github.com/user-attachments/assets/f28e8908-8d5a-41bf-ae65-69e655205f9a)
 ## Search Bar
