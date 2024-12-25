@@ -9,15 +9,46 @@
         display: flex;
         align-items: center;
         justify-content: center;
+        height: 89vh;
+        gap: 24px;
+      }
+
+      .chip {
+        padding: 6px 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 12px;
+        border-radius: 12px;
+      }
+
+      .fill-b {
+        color: #fff;
+        background-color: royalblue;
+      }
+
+      .fill-g {
+        color: #fff;
+        background-color: green;
+      }
+
+      .outline-b {
+        color: royalblue;
+        background-color: #fff;
+        box-shadow: inset 0 0 0 1px royalblue;
+      }
+
+      .outline-g {
+        color: green;
+        background-color: #fff;
+        box-shadow: inset 0 0 0 1px green;
       }
     </style>
   </head>
   <body>
     <div class="chips">
-      <div class="chip fill">primary</div>
-      <div class="chip fill">success</div>
-      <div class="chip outline">primary</div>
-      <div class="chip outline">success</div>
+      <div class="chip fill-b">primary</div>
+      <div class="chip fill-g">success</div>
+      <div class="chip outline-b">primary</div>
+      <div class="chip outline-g">success</div>
     </div>
   </body>
 </html>
