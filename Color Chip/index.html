@@ -5,41 +5,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Color Chip</title>
     <style>
+      body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 98vh;
+      }
+
       .chips {
         display: flex;
         align-items: center;
         justify-content: center;
-        height: 89vh;
-        gap: 24px;
+        gap: 12px;
       }
 
       .chip {
-        padding: 6px 10px;
+        font-size: 14px;
+        padding: 8px 14px;
+        border-radius: 18px;
         font-family: Arial, Helvetica, sans-serif;
-        font-size: 12px;
-        border-radius: 12px;
       }
 
       .fill-b {
-        color: #fff;
         background-color: royalblue;
+        color: #fff;
       }
 
       .fill-g {
-        color: #fff;
         background-color: green;
-      }
-
-      .outline-b {
-        color: royalblue;
-        background-color: #fff;
-        box-shadow: inset 0 0 0 1px royalblue;
+        color: #fff;
       }
 
       .outline-g {
         color: green;
         background-color: #fff;
         box-shadow: inset 0 0 0 1px green;
+      }
+
+      .outline-b {
+        color: royalblue;
+        background-color: #fff;
+        box-shadow: inset 0 0 0 1px royalblue;
       }
     </style>
   </head>
