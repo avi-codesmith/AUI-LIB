@@ -4,6 +4,8 @@
 ![Screenshot from 2024-12-20 09-30-24](https://github.com/user-attachments/assets/dfe53ad2-75c8-4659-aac9-a77561f0ce6f)
 ## Responsive layout (without using media query)
 https://github.com/user-attachments/assets/1a3cad44-2a9e-4beb-9703-a7c3a60c89fd
+## Auto copy btn
+https://github.com/user-attachments/assets/66605e02-6c57-4d13-bd66-31771231e7a7
 ## Alerts 
 ![Screenshot from 2024-12-20 09-35-06](https://github.com/user-attachments/assets/f861319a-f6cd-4189-b899-60720e1b9dce)
 ## Button
