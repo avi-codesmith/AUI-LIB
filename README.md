@@ -41,10 +41,9 @@ https://github.com/user-attachments/assets/f753db26-090a-44cf-b005-c1fd5e96543d
 ## Carousel
 ![Screenshot from 2024-12-15 10-36-06](https://github.com/user-attachments/assets/bff972d9-f35d-4256-b5ba-64ac5e388796)
 ## Pagination
-![Screenshot from 2024-12-15 10-36-06](https://github.com/user-attachments/assets/6789473b-def7-4bf6-872d-4050f035111c)
-
-
-
+![Screenshot from 2024-12-15 10-36-25](https://github.com/user-attachments/assets/73d7c3d6-83d5-4089-a980-189d91afb2e1)
+## Accrodian
+https://github.com/user-attachments/assets/1165021a-da39-4abd-94cc-69df7dae00d4
 
 
 
