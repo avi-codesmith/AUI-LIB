@@ -24,8 +24,6 @@ https://github.com/user-attachments/assets/4c8a6f06-681c-4d0f-9530-7df12a22b6f6
 ![Screenshot from 2024-12-20 09-29-28](https://github.com/user-attachments/assets/d393958c-0d51-4ad8-bb33-37791ed6bb05)
 ## Button
 https://github.com/user-attachments/assets/b3362993-fe91-4dc7-83cc-445bfb915374
-## Auto Copy Btn
-https://github.com/user-attachments/assets/c5f084bc-ea06-4872-8a49-ff21b8accf21
 ## Color Chip
 ![Screenshot from 2024-12-21 21-58-10](https://github.com/user-attachments/assets/89969b8c-87da-4ab0-be33-246a2d3295a7)
 ## Hover Animation
