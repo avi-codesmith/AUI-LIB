@@ -2,7 +2,7 @@
 
 ## Profile Card
 ![Screenshot from 2024-12-20 09-30-24](https://github.com/user-attachments/assets/7ad260d6-4ed0-4d65-9689-6e8f83b0d115)
-## Responsive Layuot (without any media query)
+## Responsive Layout (without any media query)
 https://github.com/user-attachments/assets/a4b7460c-c5ce-4706-9eb5-e968510eb95a
 ## Clickable Icons
 https://github.com/user-attachments/assets/397ccaa4-e0a8-4d4f-abf7-7ced265109a6
